@@ -6,3 +6,5 @@ resources:
 patches:
   - path: configmap.yaml
     target: { kind: ConfigMap, name: atelier-app-config }
+  - path: service-patch.yaml
+    target: { kind: Service, name: atelier-app }

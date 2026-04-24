@@ -8,3 +8,5 @@ patches:
     target: { kind: ConfigMap, name: atelier-app-config }
   - path: deployment-patch.yaml
     target: { kind: Deployment, name: atelier-app }
+  - path: service-patch.yaml
+    target: { kind: Service, name: atelier-app }
