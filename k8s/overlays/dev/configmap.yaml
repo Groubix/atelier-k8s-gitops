@@ -4,4 +4,4 @@ metadata:
   name: atelier-app-config
 data:
   config.json: |
-    {"message": "DEV — environnement de développement"}
+    {"message": "Nouveau DEV — environnement de développement"}
